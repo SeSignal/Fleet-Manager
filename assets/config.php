@@ -3,7 +3,7 @@
 //$servername = "10.1.17.108:3306";
 $servername = "26.74.117.25:59356";
 $username = "root";
-$password = "wMHoil!a0";
+$password = "root";
 $dbname = "db";
 
 //Connect
