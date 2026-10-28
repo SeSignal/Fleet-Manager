@@ -1,10 +1,10 @@
 <?php
 // DB login info
 //$servername = "10.1.17.108:3306";
-$servername = "127.0.0.1:3306";
+$servername = "26.74.117.25:59356";
 $username = "root";
-$password = "Erasmus+26-Server";
-$dbname = "fleet-manager";
+$password = "wMHoil!a0";
+$dbname = "db";
 
 //Connect
 $conn = new mysqli($servername, $username, $password, $dbname);
