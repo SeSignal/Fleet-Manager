@@ -1,7 +1,7 @@
 /* Shared colors used by the dashboard and vehicle detail page. */
 :root {
-    /*--blue: #2868cb;*/
-    --blue: #23c223;
+    
+    --blue: #2868cb;
     --blue-dark: #1554b5;
     --text: #162033;
     --lessImportantText: #718097;
