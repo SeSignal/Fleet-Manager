@@ -18,6 +18,7 @@ $listOfTables = ["checklists", "vehicles", "files", "users", "inspections"];
 
 $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 $uri = array_slice(explode("/", $path), 2);
+logToConsole("help")
 logToConsole($path)
 logToConsole($uri[0]);
 logToConsole($_GET["id_vehicles"]);
