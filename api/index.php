@@ -721,12 +721,12 @@ function deleteEntry($conn, $table, $id)
     return true;
 }
 
-if (
-    !in_array($uri[0], $listOfTables) ||
-    ($uri[0] == $listOfTables[2] && $uri[1] == 8 && $_SERVER["REQUEST_METHOD"] != "GET") //prevent deletion of laughing cat
-) {
-    heaDie(404, json_encode(["error" => "not_found", "message" => $uri[0]], JSON_NUMERIC_CHECK));
-}
+//if (
+//    !in_array($uri[0], $listOfTables) ||
+//    ($uri[0] == $listOfTables[2] && $uri[1] == 8 && $_SERVER["REQUEST_METHOD"] != "GET") //prevent deletion of laughing cat
+//) {
+//    heaDie(404, json_encode(["error" => "not_found", "message" => $uri[0]], JSON_NUMERIC_CHECK));
+//}
 
 switch ($_SERVER["REQUEST_METHOD"]) {
     case "GET":
