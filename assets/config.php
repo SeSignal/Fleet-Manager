@@ -4,7 +4,7 @@
 $servername = "26.74.117.25:59356";
 $username = "root";
 $password = "root";
-$dbname = "db";
+$dbname = "fleet-manager";
 
 //Connect
 $conn = new mysqli($servername, $username, $password, $dbname);
