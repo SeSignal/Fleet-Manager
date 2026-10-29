@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . "/errorManager.php";
-$API = "26.74.117.25:59356/api";
+$API = "26.74.117.25:8080/api";
 
 /**
  * Gets URL based on role
