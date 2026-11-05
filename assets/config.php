@@ -1,10 +1,10 @@
 <?php
 // DB login info
 //$servername = "10.1.17.108:3306";
-$servername = "26.74.117.25:59356";
+$servername = "db:3306";
 $username = "root";
 $password = "root";
-$dbname = "fleet-manager";
+$dbname = "db";
 
 //Connect
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -28,3 +28,16 @@ function logToConsole(string $log)
 {
     file_put_contents("php://stdout", $log . "\n");
 }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    muhahahja
+</body>
+</html>
