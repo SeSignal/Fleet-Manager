@@ -1,7 +1,7 @@
 <?php
 // DB login info
 //$servername = "10.1.17.108:3306";
-$servername = "db:3306";
+$servername = "127.0.0.1:59356";
 $username = "root";
 $password = "root";
 $dbname = "db";
