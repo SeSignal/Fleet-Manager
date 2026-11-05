@@ -28,7 +28,7 @@ function logToConsole(string $log)
 {
     file_put_contents("php://stdout", $log . "\n");
 }
->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
